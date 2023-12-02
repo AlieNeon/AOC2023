@@ -28,19 +28,20 @@ fn parse(input: &str) -> Vec<i32> {
     .collect::<Vec<_>>()
 }
 
-const NUMTEXT: [(&str, &str); 12] = [
-  ("four", "4"),
-  ("seven", "7"),
+const NUMTEXT: [(&str, &str); 13] = [
   ("e", "ee"),
-  ("nine", "9"),
-  ("five", "5"),
   ("t", "tt"),
-  ("three", "3"),
-  ("eight", "8"),
   ("o", "oo"),
-  ("one", "1"),
+  ("n", "nn"),
+  ("onne", "1"),
   ("two", "2"),
+  ("three", "3"),
+  ("foour", "4"),
+  ("five", "5"),
   ("six", "6"),
+  ("seeveen", "7"),
+  ("eight", "8"),
+  ("ninne", "9"),
 ];
 fn text2digits(input: &str) -> String {
   input
