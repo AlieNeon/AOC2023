@@ -1,3 +1,5 @@
+use std::fs;
+
 fn main() {
     const FILE_PATH: &str = "input.txt";
     println!("Welcome to AOC2023 day NUMBER, first we will read the file {}", FILE_PATH);
