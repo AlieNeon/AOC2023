@@ -7,9 +7,9 @@ fn main() {
         .expect("Should have been able to read the file");
 
     println!("And we parse the file!");
-    let mut data = parse(&contents);
-    println!("First thing: {}", calculate_1(&data));
-    println!("Second thing: {}", calculate_2(&data));
+    //let mut data = parse(&contents);
+    //println!("First thing: {}", calculate_1(&data));
+    //println!("Second thing: {}", calculate_2(&data));
 
 }
 
@@ -19,13 +19,13 @@ mod test {
     const INPUT: &str = r#""#;
     use super::*;
     #[test]
-    fn test1() {
+/*     fn test1() {
         let tst = parse(INPUT);
         assert_eq!(calculate_1(&tst), 24000);
-    }
-    #[test]
+    } */
+  /*   #[test]
     fn test2() {
         let tst = parse(INPUT);
         assert_eq!(calculate_2(&tst), 24000);
-    }
+    } */
 }
