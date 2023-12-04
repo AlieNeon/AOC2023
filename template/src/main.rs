@@ -18,13 +18,13 @@ fn main() {
 mod test {
     const INPUT: &str = r#""#;
     use super::*;
-    #[test]
-/*     fn test1() {
+/*     #[test]
+    fn test1() {
         let tst = parse(INPUT);
         assert_eq!(calculate_1(&tst), 24000);
     } */
   /*   #[test]
-    fn test2() {
+    fn testtemplate2() {
         let tst = parse(INPUT);
         assert_eq!(calculate_2(&tst), 24000);
     } */
